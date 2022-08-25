@@ -52,3 +52,4 @@ Werkzeug==2.2.2
 wrapt==1.14.1
 wsproto==1.1.0
 WTForms==3.0.1
+numpy==1.23.0
