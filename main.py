@@ -14,7 +14,7 @@ import os
 from flask import session, app
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
+app.config['SECRET_KEY'] ='ihijijjijijijijijijijijijiiujdsfjs'
 ckeditor = CKEditor(app)
 Bootstrap(app)
 # csrf token
