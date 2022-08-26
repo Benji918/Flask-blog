@@ -99,7 +99,7 @@ class Users(UserMixin, db.Model):
     comments = relationship("Comments", back_populates="comment_author")
 
 
-db.drop_all()
+# db.drop_all()
 db.create_all()
 
 
